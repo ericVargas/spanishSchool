@@ -14,7 +14,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    display: grid;
+/*    display: grid;*/
     background-color: aqua;
 }
 
@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: blue;
+    padding-top: 10px;
 }
 
 .top h2 {
@@ -72,12 +73,38 @@ body {
 .middle{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0 2%;
 }
 
 #services{
-    
+    background-color: coral;
 }
 
 #services ul{
-    list-style: square;
+    list-style: none;
+}
+
+#about{
+    padding-left: 5%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#about p{
+    font-size: 1.2rem;
+}
+
+#contact{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #444;
 }
