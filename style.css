@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Mukta, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    background-color: aqua;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: blue;
+}
+
+.top h2 {
+    text-align: center;
+}
+
+.top nav {
+    align-self: center;
+}
+
+.top ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.top li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.top li a:hover {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    color: #000;
+}
+
+.landing {
+    display: grid;
+    height: 200px;
+    margin: 10px 0;
+    background-color: darkgreen;
+    border-radius: 15px;
+}
+
+#textL{
+    width: 35%;
+    justify-self: end;
+    font-size: 1.7rem;
+    padding: 15px;
+}
+
+#textL span{
+    font-size: 1.5rem;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#services{
+    
+}
+
+#services ul{
+    list-style: square;
+}
